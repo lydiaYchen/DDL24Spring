@@ -4,16 +4,14 @@
 <!-- vscode-markdown-toc -->
 * 1. [Important links](#Importantlinks)
 * 2. [Course description](#Coursedescription)
-* 3. [Textbooks](#Textbooks)
+* 3. [Learning objective](#Objective)
 * 4. [Course team](#Courseteam)
 * 5. [Learning objectives](#Learningobjectives)
 * 6. [:dart: Grading policy](#dart:Gradingpolicy)
 	* 6.1. [Homework](#Homework)
 	* 6.2. [Group projects](#Groupprojects)
 * 7. [Detailed schedule](#Detailedschedule)
-* 8. [Relevant references](#Relevantreferences)
-* 9. [Collaboration v.s. cheating](#Collaborationv.s.cheating)
-	
+
 <!-- vscode-markdown-toc-config
 	numbering=true
 	autoSave=true
@@ -30,60 +28,43 @@ This repository contains the materials of the **MSc Quantitative Methods of Perf
 
 - [Lectures notes](lecture.md)
 - [Project description](project.md)
-- [Weekly Lab and assigment](homework.md)
+- [Lab and assigment](homework.md)
 
 
 ##  2. <a name='Coursedescription'></a>Course description
 
 
+Machine learning systems are often conventionally designed for centralized processing in that they first collect data from distributed sources and then execute algorithms on a single server. Due to the limited scalability of processing large amount of data and the long latency delay, there is a strong demand for a paradigm shift to distributed or decentralized ML systems which execute ML algorithms on multiple and in some cases even geographically dispersed nodes.
+
+The aim of this  course is to let students learn how to design and build distributed ML systems via paper reading, presentation, and discussion; We provide a broad overview on the design of the state-of-the-art distributed ML systems, with a strong focus on the scalability, resource efficiency, data requirements, and robustness of the solutions. We will present an array of methodologies and techniques that can efficiently scale ML analysis to a large number of distributed nodes against all operation conditions, e.g., system failures and malicious attacks. The specific course topics are listed below.
+
+The course materials will be based on a mixture of classic and recently published papers. 
 
 
-Todays computing systems become ever complex, due to the rapid development of hardware and software technology.  It is challenging to design and run computing systems that guarantee users’ performance requirements in a resource efficient way. Various quantitative methods are applied to capture such complex system dynamics and predict metrics of interests, from the designing phase of the systems to the runtime performance, e.g., job response times and system anomaly.  To optimize the performance of computing systems, a deep understanding on those methods and their applications on the system design are essential. Having practical hand-on experience on designing experiments, deriving models, and validating results with benchmark systems will prepare students to tackle challenges of real systems. 
-
-Course topics include
-- Design of experiments and statistical tests 
-- Operational laws and queueing methods for modeling computing systems
-- Scheduling and load balancing  
-- Machine learning methods for modeling computing systems 
-- System security and scalability analysis
-- Optimization and resource management
-
-
-##  3. <a name='Textbooks'></a>Textbooks
--  [Performance Modeling and Design of Computer Systems: Queuing Theory in Action]by Mor. Harchol-Balter 
--  [The Art of Computer Systems Performance Analysis](https://www.cse.wustl.edu/~jain/books/perfbook.htm) by Raj Jain
--  [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/ElemStatLearn/), Springer Series in Statistics
-
-
+##  3. <a name='Objective'></a>Learning objectivs
+- To argue and reason about distributed ML from a systems perspective.
+- To understand the behavior and tradeoffs of distributed ML in terms of performance and scalability
+- To estimate the importance of data inputs via different techniques, i.e., core set and decomposition methods, for distributed ML systems.
+- To understand data poison attacks and design defense strategy for distributed ML systems.
+- To analyze the state-of-the art federated machine learning systems and design the failure-resilient communication protocols
+- To design and implement methods and techniques for making distributed ML systems more efficien
 
 ##  4. <a name='Courseteam'></a>Course team
 
-This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/)  The course team is composed of a number of PhDs  who support the course through guest lectures and project supervision and a TA who focuses on the grading of homework. 
+This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/).
+TA is Abel Malan who will run the lab
+
+Lydia is the responsible instructors of this course and can be reached at **lydiaychen@ieee.org**.
 
 
--  [Jeroen Galjaard](mailto:J.M.Galjaard@tudelft.nl) (TUD PhD student)
-
-
-Lydia is the responsible instructors of this course and can jointly be reached at **lydiaychen@ieee.org**.
-
-
-
-##  5. <a name='Learningobjectives'></a>Learning objectives
-- LO1. Design full/fractional factorial experiments for multi-variate regression analysis, e.g., finding critical parameters for deep learning clusters.
-- LO2. Apply queueing theory to analyse and predict the run-time performance of applications, e.g., the average response times of on-line ML training service.
-- LO3. Apply machine learning models to analyse and predict the system dependability, e.g, root cause analysis for machine failure.
-- LO4. Conduct experiments to profile applications and extract their workload parameters on real systems, e.g., deep learning clusters
-- LO5. Develop resource management policies and validate them on real computing systems, e.g., deep learning clusters
-
-
-##  6. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
+##  5. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
 
 This course has no final exam, instead the grade is largely determined through three components: 
 
-1. Homework (30%): 3 individual homework due in week 4, 8, 11. Each homework accounts 10  of the grade and cover 3 weeks material. All homework will be released at the begining of the semester.
+1. Lab assigbment (30%): 3 individual lab assigment, due in week 4, 8, 11. 
 
-
-2. Group project (70%): group project report (60%) and presentation (10%). There will be topics of modeling response times, configuring, dependability, scheduling design. There will be an initial proposal in week 5, interim discussion with each team in week 9. The final report will be due in week 13, and 20 minutes presentation in week 9 as well.
+2. Group project (70%): group project report (60%) and presentation (10%). There will be topics of modeling response times, configuring, dependability, scheduling design. There will be an initial proposal in week 5, interim discussion with each team in week 9. The final report will be due in week 13, and 20 minutes presentation in week 13 as well.
+   
 
 
 **All assessment items (homework, and projects reports) have to be submitted via ILIAS.**
@@ -100,9 +81,9 @@ Students are given additional 48 hours grace period for late submission and will
 ###  6.2. <a name='Groupprojects'></a>Group projects
 <!-- 7 predefined project topics: evaluating the systems of 
 -->
-There are different aspects of performance  on modeling and optimizing the executions of deep neural network jobs. In this project, you will play with benchmarks that emulate the training jobs of deep neural networks on top of Spark platform - one of the most popular platform. You can build a model to predict the performance such jobs, to optimize their response times through resource allocations and scheduling, and to test the dependability of such a cluster against malicious attacks. You will do this project in a group with 1-2 other peers.
+The objective is to reproduce and improve the performance of a paper from the course list (see project.md). The students need to hand in a final project report in the style of a short scientific paper, stating their individual contribution to the overall system performance. There are four milestones associated with this project (see project.md).
 
-- Group size: 2-3 students
+- Group size: 1-2 students
 - Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 13), and presentation/interview (week 13). 
 
 [UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bosnus point.
@@ -114,45 +95,20 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 
 
 ##  7. <a name='Detailedschedule'></a>Detailed schedule
-- Lecture 1-3: Introduction, Analysis of Variation (ANOVA), Design of experiments (DoE).
-- Lecture 4: Practical Lab on the Project's platform (FLDK).
-- Lecture 5: Operational Law.
-- Lecture 6 - 7: Discrete/continuous Markov Chain.
-- Lecture 8 - 9: Queueing theory Scheduling policies.
-- Lecture 10-12: Time series analysis, clustering and (deep) classification models.
-
-
-
-
-##  8. <a name='Relevantreferences'></a>Relevant references 
-
-### 8.1 <a name='Onlinelecturenotes'></a>Online lecture notes
-
- - [Design of Experiments](https://newonlinecourses.science.psu.edu/stat503/node/5/), Penn State University
- - [Computer System Performance Evaluation](http://www.cse.cuhk.edu.hk/~cslui/csc5420.html) , John C.S. Lui at CUHK
-- [Data Mining](http://personal.psu.edu/jol2/course/stat557/), Jia Li at Penn State University
--  [Introduction to Machine learning](http://www.cs.cmu.edu/~epxing/Class/10701/), Eric Xing at Carnagie Mellon University
-
-
-
-###  8.2. <a name='Booksonperformancemodeling'></a>Books on performance modeling
-- Introduction to Probability Models by S. M. Ross, 
-- Quantitative System Performance by E. Lazowska, J. Zahorjan, S. Graham, and K. Sevcik.
-- Capacity Planning and Performance Modeling by D. Menasce, V. Almeida, and L. Dowdy 
-
-
-###  8.3. <a name='Booksonstatisticalexperimentsandlearning'></a>Books on statistical experiments and learning
-- [Design and Analysis of Experiments] (http://faculty.business.utsa.edu/manderso/STA4723/readings/Douglas-C.-Montgomery-Design-and-Analysis-of-Experiments-Wiley-2012.pdf) by Douglas Montgomery
-- [Dive into Deep Learning](https://www.d2l.ai/) by Alex Smola et. al.
-- [Pattern Recognition and Machine Learning]() by Christopher Bishop 
-
-##  9. <a name='Collaborationv.s.cheating'></a>Collaboration v.s. cheating
-
-
-You will receive one homework every few weeks. These are meant to reinforce the material that we are learning during that time, so please start immediately. Please do not search the web for help on the homework problems. It is difficult to develop good homework problems, and thus you may come across similar problems if you search the web for help. 
-
-Each pearson must write up the final solutions individually. If you discussion with classmates, please make sure you still work on your homework individually without copying solutions.
-
-
+:-----|:-----
+Week 1 | Distributed Machine Learning I |
+Week 2 | Memory and Aceeleration Technology
+Week 3 | Federated Learning I (Horizontal)
+Week 4 | Federated Learning II (Vertical)
+Week 5 | Hyper-parameter Tuning
+Week 6 | Robust Distributed Learning 
+Week 7 | Privacy Enhancing Technology for Federated Learning
+Week 8 | Distributed inference 
+Week 9 | Self-study
+Week 10| Distributed/Federated Generative AI 
+Week 11| Continual Federated Learning and Domain Adaptaion
+Week 12| 
+Week 13| Self-study
+Week 14| Project presentation
 
 
