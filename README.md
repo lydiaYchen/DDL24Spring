@@ -21,7 +21,7 @@
 
 # DDL <!-- omit in toc -->
 
-This repository contains the materials of the **MSc on Distributed Deep Learning Systems** course running in Spring 2024 at UNINE.
+This repository contains the materials of the **MSc on Distributed Deep Learning Systems** course running in Spring 2024 at BeNeFri.
 
 
 ##  1. <a name='Importantlinks'></a>Important links
