@@ -96,7 +96,7 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 
 ##  7. <a name='Detailedschedule'></a>Detailed schedule
 :-----|:-----
-Week 1 | Distributed Machine Learning I |
+Week 1 | Distributed Machine Learning I 
 Week 2 | Memory and Aceeleration Technology
 Week 3 | Federated Learning I (Horizontal)
 Week 4 | Federated Learning II (Vertical)
@@ -107,7 +107,7 @@ Week 8 | Distributed inference
 Week 9 | Self-study
 Week 10| Distributed/Federated Generative AI 
 Week 11| Continual Federated Learning and Domain Adaptaion
-Week 12| 
+Week 12| Advanced Attacks and Defneses in Federated Learning
 Week 13| Self-study
 Week 14| Project presentation
 
