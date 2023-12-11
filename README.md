@@ -1,5 +1,7 @@
 
-:warning: **I am still developing the course content. The content will be only be finalized by the end of the first week of the semester.**
+:warning: 
+**The first lecture starts at 9 am, Feb 19, 2024  .**
+**I am still developing the course content. The content will be only be finalized by the end of the first week of the semester.**
 
 <!-- vscode-markdown-toc -->
 * 1. [Important links](#Importantlinks)
