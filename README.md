@@ -54,9 +54,9 @@ The course materials will be based on a mixture of classic and recently publishe
 ##  4. <a name='Courseteam'></a>Course team
 
 This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/).
-TA is Abel Malan who will run the lab
+TAs are Abel Malan and Aditya Shankar, who will run the lab.
 
-Lydia is the responsible instructors of this course and can be reached at **lydiaychen@ieee.org**.
+Lydia is the responsible instructor of this course and can be reached at **lydiaychen@ieee.org**.
 
 
 ##  5. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
