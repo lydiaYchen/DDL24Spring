@@ -98,21 +98,21 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 
 ##  7. <a name='Detailedschedule'></a>Detailed schedule
 
-**Week**|**Topic**
-:-----|:-----
-Week 1 | Distributed Machine Learning I 
-Week 2 | Memory and Aceeleration Technology
-Week 3 | Federated Learning I (Horizontal)
-Week 4 | Federated Learning II (Vertical)
-Week 5 | Hyper-parameter Tuning
-Week 6 | Robust Distributed Learning 
-Week 7 | Privacy Enhancing Technology for Federated Learning
-Week 8 | Distributed inference 
-Week 9 | Self-study
-Week 10| Distributed/Federated Generative AI 
-Week 11| Continual Federated Learning and Domain Adaptaion
-Week 12| Advanced Attacks and Defenses in Federated Learning
-Week 13| Self-study
+**Week**|**Topic**|**Lab**
+:-----|:-----|:-----
+Week 1 (Feb 19) | Distributed Machine Learning I |No Lab
+Week 2 (Feb 26)| Memory and Aceeleration Technology | Dist SGD
+Week 3 (Mar 4) | Federated Learning I (Horizontal)| Fed AVG
+Week 4  (Mar 11) | Federated Learning II (Vertical) | HW1
+Week 5 (Mar 18) | Hyper-parameter Tuning | Review
+Week 6 (Mar 25) | Heterogneous and Multi-modality FL | VFL-I
+Week 7 (April 1 )| Federated Generative AI | VFL-II
+Week 8 (April 8)| Distributed inference | HW2
+Week 9 (April 15) |   Robust Distributed Learning | Review
+Week 10 (April 22 )| Advanced Attacks and Defenses in Federated Learning  | Attack 
+Week 11 (April 29)| Privacy Enhancing Technology for Federated Learning | Defenses
+Week 12| Self-study | HW 3
+Week 13| Project prep with TA| Project prep with TA
 Week 14| Project presentation
 
 
