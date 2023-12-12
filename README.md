@@ -1,18 +1,17 @@
 
 :warning: 
-**The first lecture starts at 9 am, Feb 19, 2024  .**
+**The first lecture starts at 8:45 AM, Feb 19, 2024.**
 **I am still developing the course content. The content will be only be finalized by the end of the first week of the semester.**
 
 <!-- vscode-markdown-toc -->
-* 1. [Important links](#Importantlinks)
-* 2. [Course description](#Coursedescription)
-* 3. [Learning objective](#Objective)
-* 4. [Course team](#Courseteam)
-* 5. [Learning objectives](#Learningobjectives)
-* 6. [:dart: Grading policy](#dart:Gradingpolicy)
-	* 6.1. [Homework](#Homework)
-	* 6.2. [Group projects](#Groupprojects)
-* 7. [Detailed schedule](#Detailedschedule)
+1. [Important links](#1-important-links)
+2. [Course description](#2-course-description)
+3. [Learning objectives](#3-learning-objectives)
+4. [Course team](#4-course-team)
+5. [:dart: Grading policy](#5-dart-grading-policy)
+   1. [Homework](#51-homework)
+   2. [Group projects](#52-group-projects)
+6. [Detailed schedule](#6-detailed-schedule)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -23,17 +22,17 @@
 
 # DDL <!-- omit in toc -->
 
-This repository contains the materials of the **MSc on Distributed Deep Learning Systems** course running in Spring 2024 at BeNeFri.
+This repository contains the materials of the **MSc on Distributed Deep Learning Systems** course running in Spring 2024 at UniNE.
 
 
-##  1. <a name='Importantlinks'></a>Important links
+##  1. Important links
 
 - [Lectures notes](lecture.md)
 - [Project description](project.md)
 - [Lab and assigment](homework.md)
 
 
-##  2. <a name='Coursedescription'></a>Course description
+##  2. Course description
 
 
 Machine learning systems are often conventionally designed for centralized processing in that they first collect data from distributed sources and then execute algorithms on a single server. Due to the limited scalability of processing large amount of data and the long latency delay, there is a strong demand for a paradigm shift to distributed or decentralized ML systems which execute ML algorithms on multiple and in some cases even geographically dispersed nodes.
@@ -43,7 +42,7 @@ The aim of this  course is to let students learn how to design and build distrib
 The course materials will be based on a mixture of classic and recently published papers. 
 
 
-##  3. <a name='Objective'></a>Learning objectivs
+##  3. Learning objectives
 - To argue and reason about distributed ML from a systems perspective.
 - To understand the behavior and tradeoffs of distributed ML in terms of performance and scalability
 - To estimate the importance of data inputs via different techniques, i.e., core set and decomposition methods, for distributed ML systems.
@@ -51,7 +50,7 @@ The course materials will be based on a mixture of classic and recently publishe
 - To analyze the state-of-the art federated machine learning systems and design the failure-resilient communication protocols
 - To design and implement methods and techniques for making distributed ML systems more efficien
 
-##  4. <a name='Courseteam'></a>Course team
+##  4. Course team
 
 This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/).
 TAs are Abel Malan and Aditya Shankar, who will run the lab.
@@ -59,11 +58,11 @@ TAs are Abel Malan and Aditya Shankar, who will run the lab.
 Lydia is the responsible instructor of this course and can be reached at **lydiaychen@ieee.org**.
 
 
-##  5. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
+##  5. :dart: Grading policy
 
 This course has no final exam, instead the grade is largely determined through three components: 
 
-1. Lab assigbment (30%): 3 individual lab assigment, due in week 4, 8, 11. 
+1. Lab assigbment (30%): 3 individual lab assigment, due in week 4, 8, 12. 
 
 2. Group project (70%): group project report (60%) and presentation (10%). The goal is to reproduce a paper and propose an algorithm to extend the paper. There will be an initial proposal in week 5, interim discussion with each team in week 9. The final report will be due in week 13, and 20 minutes presentation in week 13 as well.
    
@@ -72,15 +71,15 @@ This course has no final exam, instead the grade is largely determined through t
 **All assessment items (homework, and projects reports) have to be submitted via ILIAS.**
 
 
-###  6.1. <a name='Homework'></a>Homework
+###  5.1. Homework
 - Homework 1: due in week 4 
 - Homework 2: due in week 8
-- Homework 3: due in week 11 
+- Homework 3: due in week 12
 
 Students are given additional 48 hours grace period for late submission and will not receive any grade penalty. However, submissions after 48 hours grace period will not be considered and students will loose 25 points of their final grade. 
 
 
-###  6.2. <a name='Groupprojects'></a>Group projects
+###  5.2. Group projects
 <!-- 7 predefined project topics: evaluating the systems of 
 -->
 The objective is to reproduce and improve the performance of a paper from the course list (see project.md). The students need to hand in a final project report in the style of a short scientific paper, stating their individual contribution to the overall system performance. There are four milestones associated with this project (see project.md).
@@ -96,9 +95,9 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 
 
 
-##  7. <a name='Detailedschedule'></a>Detailed schedule
+##  6. Detailed schedule
 
-**Week**|**Topic**|**Lab**
+**Week**|**Lecture**|**Lab**
 :-----|:-----|:-----
 Week 1 (Feb 19) | Distributed Machine Learning I |No Lab
 Week 2 (Feb 26)| Memory and Aceeleration Technology | Dist SGD
