@@ -41,7 +41,6 @@ The aim of this  course is to let students learn how to design and build distrib
 The course materials will be based on a mixture of classic and recently published papers. 
 
 
-<<<<<<< HEAD
 ##  3. <a name='Objective'></a>Learning objectivs
 - To understand design principles of distribtued and federated learning systems
 - To analyze distributed and federated ML in terms of the scalability and accuracy-performance tradeoff 
