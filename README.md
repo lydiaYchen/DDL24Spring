@@ -28,7 +28,6 @@ This repository contains the materials of the **MSc on Distributed Deep Learning
 
 ##  1. <a name='Importantlinks'></a>Important links
 
-- [Lectures notes](lecture.md)
 - [Project description](project.md)
 - [Lab and assigment](homework.md)
 
@@ -44,17 +43,18 @@ The course materials will be based on a mixture of classic and recently publishe
 
 
 ##  3. <a name='Objective'></a>Learning objectivs
-- To argue and reason about distributed ML from a systems perspective.
-- To understand the behavior and tradeoffs of distributed ML in terms of performance and scalability
-- To estimate the importance of data inputs via different techniques, i.e., core set and decomposition methods, for distributed ML systems.
-- To understand data poison attacks and design defense strategy for distributed ML systems.
-- To analyze the state-of-the art federated machine learning systems and design the failure-resilient communication protocols
-- To design and implement methods and techniques for making distributed ML systems more efficien
+- To understand design principles of distribtued and federated learning systems
+- To analyze distributed and federated ML in terms of the scalability and accuracy-performance tradeoff 
+- To understand and impliment horizontal and vertical federated learning systems
+- To understand and impliment federated learn systems on different  models, e.g., classification and generative models
+- To understand and analyze volunerabilities and threat to federated learning systems, e.g., data poison attacks and freerider attacks
+- To design and impliment defense strategies against adversarial clients in federated systems
+
 
 ##  4. <a name='Courseteam'></a>Course team
 
 This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/).
-TAs are Abel Malan and Aditya Shankar, who will run the lab.
+TAs are Abel Malan and Aditya Shankar, who will run the lab and grade homework.
 
 Lydia is the responsible instructor of this course and can be reached at **lydiaychen@ieee.org**.
 
@@ -65,7 +65,7 @@ This course has no final exam, instead the grade is largely determined through t
 
 1. Lab assigbment (30%): 3 individual lab assigment, due in week 4, 8, 11. 
 
-2. Group project (70%): group project report (60%) and presentation (10%). The goal is to reproduce a paper and propose an algorithm to extend the paper. There will be an initial proposal in week 5, interim discussion with each team in week 9. The final report will be due in week 13, and 20 minutes presentation in week 13 as well.
+2. Group project (70%): group project report (60%) and presentation (10%). The goal is to reproduce a paper and propose an algorithm to extend the paper. There will be an initial proposal in week 5, interim discussion with each team in week 9. The final report will be due in week 13, and 20 minutes presentation in week 14 as well.
    
 
 
@@ -75,9 +75,9 @@ This course has no final exam, instead the grade is largely determined through t
 ###  6.1. <a name='Homework'></a>Homework
 - Homework 1: due in week 4 
 - Homework 2: due in week 8
-- Homework 3: due in week 11 
+- Homework 3: due in week 12
 
-Students are given additional 48 hours grace period for late submission and will not receive any grade penalty. However, submissions after 48 hours grace period will not be considered and students will loose 25 points of their final grade. 
+Students are given additional 48 hours grace period for late submission and will not receive any grade penalty. However, submissions after 48 hours grace period will not be considered and students will loose 15 points of their final grade. 
 
 
 ###  6.2. <a name='Groupprojects'></a>Group projects
@@ -86,7 +86,7 @@ Students are given additional 48 hours grace period for late submission and will
 The objective is to reproduce and improve the performance of a paper from the course list (see project.md). The students need to hand in a final project report in the style of a short scientific paper, stating their individual contribution to the overall system performance. There are four milestones associated with this project (see project.md).
 
 - Group size: 1-2 students
-- Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 13), and presentation/interview (week 13). 
+- Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 134), and presentation/interview (week 14). 
 
 [UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bosnus point.
 
@@ -98,21 +98,21 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 
 ##  7. <a name='Detailedschedule'></a>Detailed schedule
 
-**Week**|**Topic**|**Lab**
-:-----|:-----|:-----
+**Week**|**Lecture Topic**|**Lab Topic**| **Assigment Due**
+:-----|:-----|:-----|:-----
 Week 1 (Feb 19) | Distributed Machine Learning I |No Lab
 Week 2 (Feb 26)| Memory and Aceeleration Technology | Dist SGD
 Week 3 (Mar 4) | Federated Learning I (Horizontal)| Fed AVG
-Week 4  (Mar 11) | Federated Learning II (Vertical) | HW1
-Week 5 (Mar 18) | Hyper-parameter Tuning | Review
+Week 4  (Mar 11) | Federated Learning II (Vertical) | HW1 | HW1
+Week 5 (Mar 18) | Hyper-parameter Tuning | Review of HW1| Project proposal
 Week 6 (Mar 25) | Heterogneous and Multi-modality FL | VFL-I
 Week 7 (April 1 )| Federated Generative AI | VFL-II
-Week 8 (April 8)| Distributed inference | HW2
-Week 9 (April 15) |   Robust Distributed Learning | Review
+Week 8 (April 8)| Distributed inference | HW2 | HW2
+Week 9 (April 15) |   Robust Distributed Learning | Review of HW2| Project midterm
 Week 10 (April 22 )| Advanced Attacks and Defenses in Federated Learning  | Attack 
 Week 11 (April 29)| Privacy Enhancing Technology for Federated Learning | Defenses
-Week 12| Self-study | HW 3
-Week 13| Project prep with TA| Project prep with TA
-Week 14| Project presentation
+Week 12 (May 6)| Self-study | HW 3 | HW3
+Week 13 (May 13)| Project prep with TA| Project prep with TA
+Week 14 (May 20) | Project presentation| No Lab | Project report
 
 
