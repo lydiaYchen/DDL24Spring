@@ -98,7 +98,7 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 
 ##  6. Detailed schedule
 
-<<<<<<< HEAD
+
 **Week**|**Lecture Topic**|**Lab Topic**| **Assigment Due**
 :-----|:-----|:-----|:-----
 
