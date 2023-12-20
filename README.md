@@ -64,7 +64,10 @@ This course has no final exam, instead the grade is largely determined through t
 
 1. Lab assigbment (30%): 3 individual lab assigment, due in week 4, 8, 12. 
 
-2. Group project (70%): group project report (60%) and presentation (10%). The goal is to reproduce a paper and propose an algorithm to extend the paper. There will be an initial proposal in week 5, interim discussion with each team in week 9. The final report will be due in week 13, and 20 minutes presentation in week 14 as well.
+2. Group project (70%): group project report (60%) and presentation (10%). The goal is to reproduce a paper and propose an algorithm to extend the paper. 
+   - There will be an initial proposal in week 5, 
+   - The interim discussion with each team in week 9. 
+   - The final report will be due in week 13, and 20 minutes presentation in week 14 as well.
    
 
 
