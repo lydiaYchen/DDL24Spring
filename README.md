@@ -42,12 +42,12 @@ The course materials will be based on a mixture of classic and recently publishe
 
 
 ##  3. <a name='Objective'></a>Learning objectivs
-- To understand design principles of distribtued and federated learning systems
+- To understand design principles of distributed and federated learning systems
 - To analyze distributed and federated ML in terms of the scalability and accuracy-performance tradeoff 
-- To understand and impliment horizontal and vertical federated learning systems
-- To understand and impliment federated learn systems on different  models, e.g., classification and generative models
-- To understand and analyze volunerabilities and threat to federated learning systems, e.g., data poison attacks and freerider attacks
-- To design and impliment defense strategies against adversarial clients in federated systems
+- To understand and implement horizontal and vertical federated learning systems
+- To understand and implement federated learn systems on different  models, e.g., classification and generative models
+- To understand and analyze vulnerabilities and threat to federated learning systems, e.g., data poison attacks and freerider attacks
+- To design and implement defense strategies against adversarial clients in federated systems
 
 
 ##  4. Course team
@@ -62,7 +62,7 @@ Lydia is the responsible instructor of this course and can be reached at **lydia
 
 This course has no final exam, instead the grade is largely determined through three components: 
 
-1. Lab assigbment (30%): 3 individual lab assigment, due in week 4, 8, 12. 
+1. Lab assignment (30%): 3 individual lab assignment, due in week 4, 8, 12. 
 
 2. Group project (70%): group project report (60%) and presentation (10%). The goal is to reproduce a paper and propose an algorithm to extend the paper. 
    - There will be an initial proposal in week 5, 
@@ -90,7 +90,7 @@ The objective is to reproduce and improve the performance of a paper from the co
 - Group size: 1-2 students
 - Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 134), and presentation/interview (week 14). 
 
-[UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bosnus point.
+[UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bonus point.
 
 At the end of each project phase we will conduct a short interview (20 minutes per group) about the group project and its connection to the course content. Based on the project report and the interview, each member of the group receives a grade. 
 
@@ -104,11 +104,11 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 **Week**|**Lecture Topic**|**Lab Topic**| **Assigment Due**
 :-----|:-----|:-----|:-----
 Week 1 (Feb 19) | Distributed Machine Learning I |No Lab |
-Week 2 (Feb 26)| Memory and Aceeleration Technology | Dist SGD|
+Week 2 (Feb 26)| Memory and Acceleration Technology | Dist SGD|
 Week 3 (Mar 4) | Federated Learning I (Horizontal)| Fed AVG
 Week 4  (Mar 11) | Federated Learning II (Vertical) | HW1 | HW1
 Week 5 (Mar 18) | Hyper-parameter Tuning | Review of HW1| Project proposal
-Week 6 (Mar 25) | Heterogneous and Multi-modality FL | VFL-I
+Week 6 (Mar 25) | Heterogeneous and Multi-modality FL | VFL-I
 Week 7 (April 1 )| Federated Generative AI | VFL-II
 Week 8 (April 8)| Distributed inference | HW2 | HW2
 Week 9 (April 15) |   Robust Distributed Learning | Review of HW2| Project midterm
