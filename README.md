@@ -107,14 +107,14 @@ Week 1 (Feb 19) | Distributed Machine Learning I |No Lab |
 Week 2 (Feb 26)| Memory and Acceleration Technology | Dist SGD|
 Week 3 (Mar 4) | Federated Learning I (Horizontal)| Fed AVG
 Week 4  (Mar 11) | Federated Learning II (Vertical) | HW1 | HW1
-Week 5 (Mar 18) | Hyper-parameter Tuning | Review of HW1| Project proposal
-Week 6 (Mar 25) | Heterogeneous and Multi-modality FL | VFL-I
-Week 7 (April 1 )| Federated Generative AI | VFL-II
-Week 8 (April 8)| Distributed inference | HW2 | HW2
+Week 5 (Mar 18) | Heterogeneous and Multi-modality FL| VFL-I| Project proposal
+Week 6 (Mar 25) | Federated Generative AI  | VFL-II
+Week 7 (April 1 )| No Lecture | No lecture| 
+Week 8 (April 8)|  Hyper-parameter Tuning  | HW2 | HW2
 Week 9 (April 15) |   Robust Distributed Learning | Review of HW2| Project midterm
 Week 10 (April 22 )| Advanced Attacks and Defenses in Federated Learning  | Attacks
 Week 11 (April 29)| Privacy Enhancing Technology for Federated Learning | Defenses
-Week 12 (May 6)| Self-study | HW 3 | HW3
+Week 12 (May 6)|  Distributed Inference (online) | HW 3 | HW3
 Week 13 (May 13)| Project prep with TA| Project prep with TA
 Week 14 (May 20) | Project presentation| No Lab | Project report
 
