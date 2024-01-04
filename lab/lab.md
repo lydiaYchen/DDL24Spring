@@ -4,7 +4,7 @@ The lab consists of three parts, each with two group tutorial sessions to be giv
 
 - Part 1: Horizontal Federated Learning
     - Tutorial 1A - Centralized Learning Recap & Federated Learning Setup
-    - Tutorial 1B - FedSGD/FedAVG & Result Overview
+    - Tutorial 1B - FedSGD/FedAvg & Result Overview
     - Homework 1 - HFL
 - Part 2: Vertical Federated Learning
     - Tutorial 2A - Classification
