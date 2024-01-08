@@ -66,7 +66,7 @@ Students are given additional 48 hours grace period for late submission and will
 The objective is to reproduce and improve the performance of a paper from the course list. The students need to hand in a final project report in the style of a short scientific paper, stating their individual contribution to the overall system performance. There are four milestones associated with this project. See the [project description](project.md) for more information.
 
 - Group size: 1-2 students
-- Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 134), and presentation/interview (week 14).
+- Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 14), and presentation/interview (week 14).
 
 [UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bonus point.
 
@@ -77,8 +77,8 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 **Week**|**Lecture Topic**|**Lab Topic**|**Assigment Due**
 :-----|:-----|:-----|:-----
 Week 1 (Feb 19) | Distributed Machine Learning I | No Lab
-Week 2 (Feb 26) | Memory and Acceleration Technology | FedSGD
-Week 3 (Mar 4) | Federated Learning I (Horizontal) | FedAvg
+Week 2 (Feb 26) | Memory and Acceleration Technology | Setup & Intro
+Week 3 (Mar 4) | Federated Learning I (Horizontal) | FedSGD & FedAvg
 Week 4 (Mar 11) | Federated Learning II (Vertical) | HW1 | HW1
 Week 5 (Mar 18) | Heterogeneous and Multi-modality FL | VFL-I | Project proposal
 Week 6 (Mar 25) | Federated Generative AI | VFL-II
