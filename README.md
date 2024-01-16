@@ -80,8 +80,8 @@ Week 1 (Feb 19) | Distributed Machine Learning I | No Lab
 Week 2 (Feb 26) | Memory and Acceleration Technology | Setup & Intro
 Week 3 (Mar 4) | Federated Learning I (Horizontal) | FedSGD & FedAvg
 Week 4 (Mar 11) | Federated Learning II (Vertical) | HW1 | HW1
-Week 5 (Mar 18) | Heterogeneous and Multi-modality FL | VFL-I | Project proposal
-Week 6 (Mar 25) | Federated Generative AI | VFL-II
+Week 5 (Mar 18) | Heterogeneous and Multi-modality FL | VFL | Project proposal
+Week 6 (Mar 25) | Federated Generative AI | Generative Modelling
 Week 7 (Apr 1) | *No Lecture* | *No lecture* |
 Week 8 (Apr 8) | Hyper-parameter Tuning  | HW2 | HW2
 Week 9 (Apr 15) | Robust Distributed Learning | Review of HW2 | Project midterm
