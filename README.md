@@ -109,10 +109,10 @@ Week 3 (Mar 4) | Federated Learning I (Horizontal)| Fed AVG
 Week 4  (Mar 11) | Federated Learning II (Vertical) | HW1 | HW1
 Week 5 (Mar 18) | Heterogeneous and Multi-modality FL| VFL-I| Project proposal
 Week 6 (Mar 25) | Federated Generative AI  | VFL-II
-Week 7 (April 1 )| No Lecture | No lecture| 
+Week 7 (April 1 )| No Lecture | No lab| 
 Week 8 (April 8)|  Hyper-parameter Tuning  | HW2 | HW2
-Week 9 (April 15) |   Robust Distributed Learning | Review of HW2| Project midterm
-Week 10 (April 22 )| Advanced Attacks and Defenses in Federated Learning  | Attacks
+Week 9 (April 15) |   Robust Distributed Learning | Review of HW1/HW2| Project midterm
+Week 10 (April 22 )| Advanced Attacks and Defenses in Federated Learning (Online)  | Attacks
 Week 11 (April 29)| Privacy Enhancing Technology for Federated Learning | Defenses
 Week 12 (May 6)|  Distributed Inference (online) | HW 3 | HW3
 Week 13 (May 13)| Project prep with TA| Project prep with TA
