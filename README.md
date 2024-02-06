@@ -9,15 +9,6 @@
   - [5.1. Homework](#51-homework)
   - [5.2. Group projects](#52-group-projects)
 - [6. Detailed schedule](#6-detailed-schedule)
-- [1. Important links](#1-important-links-1)
-- [2. Course description](#2-course-description-1)
-- [3. Learning objectives](#3-learning-objectives-1)
-- [4. Course team](#4-course-team-1)
-- [5. :dart: Grading policy](#5-dart-grading-policy-1)
-  - [5.1. Homework](#51-homework-1)
-  - [5.2. Group projects](#52-group-projects-1)
-- [6. Detailed schedule](#6-detailed-schedule-1)
-
 
 This repository contains the materials of the **MSc on Distributed Deep Learning Systems** course running in Spring 2024 at UniNE.
 
