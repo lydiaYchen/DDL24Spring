@@ -1,6 +1,5 @@
-:warning:
+
 **The first lecture starts at 8:45 AM, Feb 19, 2024.**
-**I am still developing the course content. The content will be only be finalized by the end of the first week of the semester.**
 
 - [1. Important links](#1-important-links)
 - [2. Course description](#2-course-description)
@@ -18,6 +17,7 @@
   - [5.1. Homework](#51-homework-1)
   - [5.2. Group projects](#52-group-projects-1)
 - [6. Detailed schedule](#6-detailed-schedule-1)
+
 
 This repository contains the materials of the **MSc on Distributed Deep Learning Systems** course running in Spring 2024 at UniNE.
 
@@ -76,7 +76,7 @@ The objective is to reproduce and improve the performance of a paper from the co
 - Group size: 1-2 students
 - Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 14), and presentation/interview (week 14).
 
-[UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bonus point.
+--> [UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bonus point.
 
 At the end of each project phase we will conduct a short interview (20 minutes per group) about the group project and its connection to the course content. Based on the project report and the interview, each member of the group receives a grade.
 
@@ -157,7 +157,6 @@ The objective is to reproduce and improve the performance of a paper from the co
 - Group size: 1-2 students
 - Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 14), and presentation/interview (week 14).
 
-[UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bonus point.
 
 At the end of each project phase we will conduct a short interview (20 minutes per group) about the group project and its connection to the course content. Based on the project report and the interview, each member of the group receives a grade.
 
