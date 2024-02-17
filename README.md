@@ -15,7 +15,7 @@ This repository contains the materials of the **MSc on Distributed Deep Learning
 ##  1. Important links
 
 - [Project description](project.md)
-- [Lab and assigment](homework.md)
+- [Lab and assigments](lab/README.md)
 
 ##  2. Course description
 
@@ -89,5 +89,3 @@ Week 11 (Apr 29) | Privacy Enhancing Technology for Federated Learning | Defense
 Week 12 (May 6) | Distributed Inference *(online)* | HW3 | HW3
 Week 13 (May 13) | Project Q&A with TA | Project Q&A with TA
 Week 14 (May 20) | Project presentation | No Lab | Project report
-
-

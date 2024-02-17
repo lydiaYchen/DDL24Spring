@@ -1,0 +1,3 @@
+{
+    "python.defaultInterpreterPath": "./lab/.venv/bin/python"
+}
