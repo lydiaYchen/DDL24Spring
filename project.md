@@ -173,7 +173,7 @@ We suggest the following final report structure:
 
 The final report should also contain a link to a repository (or several) that contain the software you created, the scripts you used to analyze your data, etc.
 
-Submission: every group uploads their intermediate presentation and final group project reports on ILIAS. The reports should be in PDF format. Note that after submission a plagiarism check is executed by Turnitin - please make sure to follow the academic rules of writing ([you can read them up here one more time](https://www.tudelft.nl/library/actuele-themas/copyright/c/plagiarism/)).
+Submission: every group uploads their intermediate presentation and final group project reports on ILIAS. The reports should be in PDF format.
 
 In addition, your report must also include a figure that graphically depicts a major component of your project (e.g., your approach and how it relates to the application, etc.). Such a summary figure makes your paper much more accessible by providing a visual counterpart to the text. Developing such a concise and clear figure can actually be quite time-consuming; I often go through around ten versions before I end up with a good final version.
 
