@@ -42,14 +42,14 @@ Lydia is the responsible instructor of this course and can be reached at **lydia
 
 ##  5. :dart: Grading policy
 
-This course has no final exam, instead the grade is largely determined through three components:
+This grade of this course is largely determined through three components:
 
 1. Lab assignment (30%): 3 individual lab assignment, due in week 4, 8, 12.
 
 2. Group project (70%): group project report (60%) and presentation (10%). The goal is to reproduce a paper and propose an algorithm to extend the paper.
    - There will be an initial proposal in week 5,
    - The interim discussion with each team in week 9.
-   - The final report will be due in week 13, and 20 minutes presentation in week 14 as well.
+   - The final report will be due in the last week, and 20 minutes presentation in the last week as well.
 
 **All assessment items (homework, and projects reports) have to be submitted via ILIAS.**
 
@@ -88,4 +88,5 @@ Week 10 (Apr 22) | Advanced Attacks and Defenses in Federated Learning | Attacks
 Week 11 (Apr 29) | Privacy Enhancing Technology for Federated Learning | Defenses
 Week 12 (May 6) | Distributed Inference *(online)* | HW3 | HW3
 Week 13 (May 13) | Project Q&A with TA | Project Q&A with TA
-Week 14 (May 20) | Project presentation | No Lab | Project report
+Week 14 (May 20) | *No Lecture* | *No lecture* |
+Week 15 (May 27) | Project presentation | No Lab | Project report
