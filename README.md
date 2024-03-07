@@ -83,7 +83,7 @@ Week 5 (Mar 18) | Heterogeneous and Multi-modality FL | VFL | Project proposal
 Week 6 (Mar 25) | Federated Generative AI | Generative Modelling
 Week 7 (Apr 1) | *No Lecture* | *No lecture* |
 Week 8 (Apr 8) | Hyper-parameter Tuning  | HW2 | HW2
-Week 9 (Apr 15) | Robust Distributed Learning | Review of HW2 | Project midterm
+Week 9 (Apr 15) | Robust Distributed Learning | Review of HW 1 & 2 | Project midterm
 Week 10 (Apr 22) | Advanced Attacks and Defenses in Federated Learning | Attacks
 Week 11 (Apr 29) | Privacy Enhancing Technology for Federated Learning | Defenses
 Week 12 (May 6) | Distributed Inference *(online)* | HW3 | HW3
