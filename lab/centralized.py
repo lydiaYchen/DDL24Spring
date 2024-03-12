@@ -1,9 +1,11 @@
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import torch
+from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import accuracy_score
 from torch import nn, optim
 from torch.nn import functional as F
 
@@ -27,7 +29,7 @@ class HeartDiseaseNN(nn.Module):
 
 
 if __name__ == "__main__":
-    df = pd.read_csv("heart.csv")
+    df = pd.read_csv(Path(__file__).parent / "heart-dataset" / "heart.csv")
     categorical = ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']
     encoded_df = pd.get_dummies(df, columns=categorical)
     X = encoded_df.drop("target", axis=1)
@@ -66,4 +68,3 @@ if __name__ == "__main__":
             max_test = test_acc
             best_params = net.state_dict()
     net.load_state_dict(best_params)
-
