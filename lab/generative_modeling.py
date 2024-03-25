@@ -78,7 +78,6 @@ class Autoencoder(nn.Module):
     def forward(self, x):
         mu, logvar = self.encode(x)
         z = self.reparameterize(mu, logvar)
-        # self.decode(z) ist später recon_batch, mu ist mu und logvar ist logvar
         return self.decode(z), mu, logvar
 
     def train_with_settings(self, epochs, batch_sz, real_data, optimizer, loss_fn):
@@ -121,7 +120,6 @@ class customLoss(nn.Module):
         super(customLoss, self).__init__()
         self.mse_loss = nn.MSELoss(reduction="sum")
 
-    # x_recon ist der im forward im Model erstellte recon_batch, x ist der originale x Batch, mu ist mu und logvar ist logvar
     def forward(self, x_recon, x, mu, logvar):
         loss_MSE = self.mse_loss(x_recon, x)
         loss_KLD = -0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp())
