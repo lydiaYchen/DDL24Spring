@@ -36,7 +36,7 @@ The course materials will be based on a mixture of classic and recently publishe
 ##  4. Course team
 
 This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/).
-TAs are Abel Malan and Aditya Shankar, who will run the lab and grade homework.
+TAs are Abel Malan, Aditya Shankar, and Chaoyi Zhu, who will run the lab and grade homework.
 
 Lydia is the responsible instructor of this course and can be reached at **lydiaychen@ieee.org**.
 
@@ -56,7 +56,7 @@ This grade of this course is largely determined through three components:
 ###  5.1. Homework
 - Homework 1: due in week 4
 - Homework 2: due in week 8
-- Homework 3: due in week 12
+- Homework 3: due in week 11
 
 Students are given additional 48 hours grace period for late submission and will not receive any grade penalty. However, submissions after 48 hours grace period will not be considered and students will loose 15 points of their final grade.
 
